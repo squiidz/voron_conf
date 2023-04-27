@@ -1,13 +1,10 @@
 [server]
 host = 0.0.0.0
 port = 7125
-enable_debug_logging = False
 max_upload_size = 1024
 
 [file_manager]
-config_path = ~/klipper_config
-log_path = ~/klipper_logs
-enable_object_processing = False
+enable_object_processing = True
 
 [octoprint_compat]
 
@@ -25,6 +22,13 @@ path = ~/mainsail
 type = git_repo
 path = ~/klipper_z_calibration
 origin = https://github.com/protoloft/klipper_z_calibration.git
+install_script = install.sh
+managed_services = klipper
+
+[update_manager ercf-happy_hare]
+type = git_repo
+path = ~/ERCF-Software-V3
+origin = https://github.com/moggieuk/ERCF-Software-V3.git
 install_script = install.sh
 managed_services = klipper
 

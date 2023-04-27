@@ -1,0 +1,9 @@
+[Variables]
+ercf_calib_0 = 1.0
+ercf_calib_1 = 0.998746046374
+ercf_calib_2 = 0.997882825936
+ercf_calib_3 = 0.998746046374
+ercf_calib_4 = 0.998746046374
+ercf_calib_5 = 0.999610761566
+ercf_calib_ref = 1201.766475
+
